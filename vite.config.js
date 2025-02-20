@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from 'tailwindcss';
 
 export default defineConfig({
-  base:"/ReservasPMU",
+  base:"/ReservasPMU/",
   plugins: [react(), tailwindcss()],
 });
